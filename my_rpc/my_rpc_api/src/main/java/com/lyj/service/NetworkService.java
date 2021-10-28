@@ -7,5 +7,5 @@ import java.rmi.RemoteException;
 
 public interface NetworkService extends Remote {
     String trainNetwork(String datasets) throws RemoteException;
-    String runNetwork(Mat img) throws RemoteException;
+    String runNetwork() throws RemoteException;
 }
