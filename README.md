@@ -10,4 +10,6 @@
 $ for mac
 1. homebrew 安装
 2. 设置bash代码
-3. 
+3. sudo xcode-select --install
+4. Brew edit opencv  打开java编译开关
+5. Brew install --build-from-source opencv
